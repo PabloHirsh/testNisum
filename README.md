@@ -1,20 +1,22 @@
 # testNisum
-Pruebas NISUM
+<h1>Pruebas NISUM</h1>
 
-Entregables
-ApiRest  
-  código incluido en el pull de GIT, creado con la siguiente tecnología:
-  Java 17
-  Spring Boot 3.2.4 
-  Base de datos H2
-  Maven
-  Unit Test
-  OpenAPI / Swagger para diseño y documentación
-Postman
-  Ambiente para uso y pruebas de la Api, archivos incluidos en el pull de GIT:
+<h2>Entregables</h2>
+<h3>ApiRest</h3>
+  <p>código incluido en el pull de GIT, creado con la siguiente tecnología:</p>
+  <ul>
+    <li>Java 17</li>
+    <li>Spring Boot 3.2.4 </li>
+    <li>Base de datos H2</li>
+    <li>Maven</li>
+    <li>Unit Test</li>
+    <li>OpenAPI / Swagger para diseño y documentación</li>
+  </ul>
+<h3>Postman</h3>
+  <p>Ambiente para uso y pruebas de la Api, archivos incluidos en el pull de GIT:
   Nisum.postman_collection.json, incluye todas las llamadas a los endpoints.
-  
-  Se encuentra en la carpeta : ./postman
-Guía rápida para pruebas
-   Se encuentra en la carpeta : ./documentos
+  <br><br>
+  Se encuentra en la carpeta : ./postman</p>
+<h3>Guía rápida para pruebas</h3>
+   <p>Se encuentra en la carpeta : ./documentos</p>
   
