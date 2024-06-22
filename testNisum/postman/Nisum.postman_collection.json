@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "17e02fb6-7cfa-4796-97ba-cf3d9044456a",
+		"name": "Nisum",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2514950"
+	},
+	"item": [
+		{
+			"name": "Creacion de usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Pablo Hirsh\",\r\n  \"email\":\"a3@a1.cl\",\r\n  \"password\": \"Hunter21\",\r\n  \"phones\": [\r\n    {\r\n      \"number\": \"1234567\",\r\n      \"citycode\": \"1\",\r\n      \"contrycode\": \"57\"\r\n    },\r\n    {\r\n      \"number\": \"7654321\",\r\n      \"citycode\": \"2\",\r\n      \"contrycode\": \"56\"\r\n    }    \r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar todos los usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users"
+					]
+				},
+				"description": "Nisum"
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar usuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"1234\",\r\n  \"email\":\"a2@a1.cl\",  \r\n  \"password\": \"hunter21\",\r\n  \"isActive\": false\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/1cad9199-9f7d-4741-9255-421ef6804733",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"1cad9199-9f7d-4741-9255-421ef6804733"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "datos de un usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/ea9282f6-bd6d-4d11-befa-f00facace426",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"ea9282f6-bd6d-4d11-befa-f00facace426"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/users/c27cb8a9-e590-4837-bc09-cbc06affd981",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/c27cb8a9-e590-4837-bc09-cbc06affd981",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"c27cb8a9-e590-4837-bc09-cbc06affd981"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
