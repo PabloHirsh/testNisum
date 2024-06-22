@@ -12,7 +12,8 @@
       <li>OpenAPI / Swagger para diseño y documentación</li>
     </ul>
   <h3>Postman</h3>
-    <blockquote>Ambiente para uso y pruebas de la Api, archivos incluidos en el pull de GIT:<br>
+    <blockquote>Ambiente para uso y pruebas de la Api, archivos incluidos en el pull de GIT:
+    <br><br>
     Nisum.postman_collection.json, 
     <br><br>    
     incluye todas las llamadas a los endpoints.
