@@ -1,7 +1,5 @@
 # testNisum
-<h1>Pruebas NISUM</h1>
-
-<h2>Entregables</h2>
+<h3>Entregables</h3>
 <h3>ApiRest</h3>
   <p>código incluido en el pull de GIT, creado con la siguiente tecnología:</p>
   <ul>
